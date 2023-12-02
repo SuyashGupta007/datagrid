@@ -1,0 +1,97 @@
+
+
+.admin-dashboard {
+    padding: 16px;
+}
+
+.container {
+    margin: auto;
+    padding: 16px;
+    background-color: #f8f8f8; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.mb-4 {
+    margin-bottom: 20px; 
+}
+
+input[type="text"] {
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #4CAF50; }
+table {
+    width: 100%;
+    font-size: 16px; 
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 14px; 
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+    margin-top: 10px;
+}
+
+tr:hover {
+    background-color: #e6e6e6; 
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px; 
+    margin-right: 10px; 
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.space-x-2 {
+    margin-right: 10px; /* Increased spacing */
+}
+
+/* Add additional styles as needed */
+button.delete-button:hover {
+    background-color: #e74c3c; /* Red background on hover */
+    color: #fff; /* White text on hover */
+}
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .pagination-buttons button {
+    margin-right: 0.5rem;
+  }
+  
+  .delete-button {
+    margin-left: 1rem;
+  }
+  .selected-row {
+    background-color: #ddd; /* Grayish background color for selected rows */
+  }
